@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  xsis-api:
+    image: xsis-api
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+        max-file: "25"
+    volumes:
+       - ./usr/src/xsis-api
+    ports:
+      - 3000:3000
+    restart: unless-stopped
+    container_name: xsis-api
