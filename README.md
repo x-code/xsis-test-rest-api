@@ -6,10 +6,22 @@ Install:
 npm install
 npm install --save-dev sequelize-cli
 ```
+
+Set config .env for database :
+```markdown
+DB_HOST=127.0.0.1
+DB_PORT=5433
+DB_NAME=xsis
+DB_USERNAME=postgres
+DB_PASSWORD=root
+DB_SEEDER=xsis_
+```
+
 Migrate DB:
 ```markdown
 npx sequelize-cli db:migrate
 ```
+
 Seeder DB Dummy:
 ```markdown
 npx sequelize-cli db:seed:all
