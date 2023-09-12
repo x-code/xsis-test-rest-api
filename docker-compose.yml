@@ -10,6 +10,6 @@ services:
     volumes:
        - ./usr/src/xsis-api
     ports:
-      - 3000:3000
+      - 3001:3001
     restart: unless-stopped
     container_name: xsis-api
