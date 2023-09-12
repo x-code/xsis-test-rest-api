@@ -1,5 +1,5 @@
 # Xsis API
-Technolgy Stack:
+Technology Stack:
 ```markdown
 - Node JS : 14.17.5
 - Database : Postgresql
