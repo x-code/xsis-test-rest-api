@@ -1,4 +1,9 @@
 # Xsis API
+Technolgy Stack:
+```markdown
+- Node JS : 14.17.5
+- Database : Postgresql
+```
 
 ## Via NPM
 Install:
