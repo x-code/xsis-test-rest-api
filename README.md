@@ -20,8 +20,6 @@ Running:
 npm start
 ```
 
-================================================================
-
 ## Via Docker
 Docker Setup:
 
@@ -33,8 +31,6 @@ Docker Run:
 ```markdown
 docker run -p 3001:3001 -it --name xsis-api --mount target=/usr/src/xsis-api xsis-api
 ```
-
-================================================================
 
 # Testing
 Host
