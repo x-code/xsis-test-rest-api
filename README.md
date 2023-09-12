@@ -1,8 +1,19 @@
 # Xsis API
+
+================================================================
+## via NPM
 Install:
 ```markdown
 npm install
 npm install --save-dev sequelize-cli
+```
+Migrate DB:
+```markdown
+npx sequelize-cli db:migrate
+```
+Seeder DB Dummy:
+```markdown
+npx sequelize-cli db:seed:all
 ```
 
 Running:
@@ -12,16 +23,7 @@ npm start
 
 ================================================================
 
-Migrate DB:
-```markdown
-npx sequelize-cli db:migrate
-```
-Seeder DB Dummy:
-```markdown
-npx sequelize-cli db:seed:all
-```
-================================================================
-
+## via Docker
 Docker Setup:
 
 ```markdown
@@ -34,6 +36,7 @@ docker run -p 3001:3001 -it --name xsis-api --mount target=/usr/src/xsis-api xsi
 ```
 
 ================================================================
+
 # Starting
 Host
 ```markdown
