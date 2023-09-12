@@ -1,7 +1,6 @@
 # Xsis API
 
-================================================================
-## via NPM
+## Via NPM
 Install:
 ```markdown
 npm install
@@ -23,7 +22,7 @@ npm start
 
 ================================================================
 
-## via Docker
+## Via Docker
 Docker Setup:
 
 ```markdown
